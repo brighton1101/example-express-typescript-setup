@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "node --inspect=3000 -r ts-node/register ./src/server.ts",
+    "start": "node --inspect=3000 -r ts-node/register index.ts",
     "start:watch": "nodemon",
+    "start:build": "node dist/index.js",
     "build": "tsc"
   },
   "keywords": [],
